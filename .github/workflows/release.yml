@@ -1,7 +1,7 @@
 name: Release
 
 on:
-  workflow_dispatch:  # Allows manual triggering in GitHub Actions
+  workflow_dispatch:  # Allows manual triggering in GitHub Actions 
 
 jobs:
   release:
