@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/ligadata-yaraAbbas/semantic-release-R2/compare/v1.1.0...v1.2.0) (2025-02-18)
+
+
+### Features
+
+* add .gitignore file ([91a776c](https://github.com/ligadata-yaraAbbas/semantic-release-R2/commit/91a776c2d25723c4b6d74ccea1b39214c43d128f))
+
 # [1.1.0](https://github.com/ligadata-yaraAbbas/semantic-release-R2/compare/v1.0.1...v1.1.0) (2025-02-18)
 
 
