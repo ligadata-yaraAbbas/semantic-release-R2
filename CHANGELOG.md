@@ -1,3 +1,13 @@
+# [1.4.0](https://github.com/ligadata-yaraAbbas/semantic-release-R2/compare/v1.3.0...v1.4.0) (2025-02-18)
+
+
+### Features
+
+* add file ([b7bc154](https://github.com/ligadata-yaraAbbas/semantic-release-R2/commit/b7bc15451b1092d3da3e6b902a5c0917ac05375d))
+* manual release ([ed8fe1c](https://github.com/ligadata-yaraAbbas/semantic-release-R2/commit/ed8fe1cfdfd9a06d320a253525fee911e49db421))
+* manual release2 ([387e5b4](https://github.com/ligadata-yaraAbbas/semantic-release-R2/commit/387e5b49f474b0549fc9103a96323635448da803))
+* manual release3 ([d58b26c](https://github.com/ligadata-yaraAbbas/semantic-release-R2/commit/d58b26c759f48e4129daf1f4a70e675668334c82))
+
 # [1.3.0](https://github.com/ligadata-yaraAbbas/semantic-release-R2/compare/v1.2.0...v1.3.0) (2025-02-18)
 
 
