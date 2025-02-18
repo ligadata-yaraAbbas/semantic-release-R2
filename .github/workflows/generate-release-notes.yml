@@ -1,0 +1,26 @@
+name: Generate Release Notes
+
+on:
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  generate-release-notes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Generate Release Notes
+        run: |
+          LAST_RELEASE_TAG=$(git describe --tags --abbrev=0)
+          RELEASE_DATE=$(date +"%Y-%m-%d")
+          CHANGES=$(git log --oneline $LAST_RELEASE_TAG..HEAD)
+          echo "## Release v1.1.0 - $RELEASE_DATE" > release_notes.md
+          echo "### Changes since $LAST_RELEASE_TAG:" >> release_notes.md
+          echo "$CHANGES" >> release_notes.md
+
+      - name: Upload Release Notes
+        uses: actions/upload-artifact@v3
+        with:
+          name: release_notes
+          path: release_notes.md
