@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/ligadata-yaraAbbas/semantic-release-R2/compare/v1.0.1...v1.1.0) (2025-02-18)
+
+
+### Bug Fixes
+
+* update the hql file ([57c87ea](https://github.com/ligadata-yaraAbbas/semantic-release-R2/commit/57c87eaf7afae40ab4bada2b3980e11ef0e2f699))
+
+
+### Features
+
+* add Notes file ([afb1b18](https://github.com/ligadata-yaraAbbas/semantic-release-R2/commit/afb1b18ca849d73c5b9d5d9161c9ca6bec17cdc4))
+
 ## [1.0.1](https://github.com/ligadata-yaraAbbas/semantic-release-R2/compare/v1.0.0...v1.0.1) (2025-02-17)
 
 
